@@ -1,8 +1,8 @@
 # use-controllable-state
 
-![npm (scoped)](https://img.shields.io/npm/v/@zanomate/use-controllable-state?style=flat-square)
-![npm type definitions](https://img.shields.io/npm/types/@zanomate/use-controllable-state)
-![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/@zanomate/use-controllable-state/peer/react)
+[![npm (scoped)](https://img.shields.io/npm/v/@zanomate/use-controllable-state?style=flat-square)](https://www.npmjs.com/package/@zanomate/use-controllable-state)
+[![npm type definitions](https://img.shields.io/npm/types/@zanomate/use-controllable-state)](https://www.npmjs.com/package/typescript)
+[![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/@zanomate/use-controllable-state/peer/react)](https://www.npmjs.com/package/react)
 
 A React custom hook to manage double controlled/uncontrolled behaviors.
 

@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createElement, FC, useEffect, useState } from 'react'
-import { useControllableState } from './useControllableState'
+import useControllableState from './useControllableState'
 
 /** Reverts a string. */
 const reverseString = str => (
@@ -15,7 +15,7 @@ const reverseString = str => (
 const ReverseInput: FC<{ defaultValue?: string, value?: string, onChange?: (newValue: string) => void }> = props => {
   const { defaultValue, value, onChange } = props
 
-  const [state, setState] = useControllableState(defaultValue, value, onChange)
+  const [state, setState] = useControllableState<string>(defaultValue, value, onChange)
 
   const handleChange = e => {
     setState(reverseString(e.target.value))

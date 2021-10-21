@@ -1,10 +1,10 @@
 {
   "name": "@zanomate/use-controllable-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "useControllableState custom hook for React",
-  "main": "dist/index.min.js",
-  "module": "dist/index.esm.min.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/useControllableState.min.js",
+  "module": "dist/useControllableState.esm.min.js",
+  "types": "dist/useControllableState.d.ts",
   "files": [
     "dist"
   ],

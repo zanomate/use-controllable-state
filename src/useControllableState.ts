@@ -1,9 +1,9 @@
 import { Dispatch, SetStateAction, useState } from 'react'
 
-export const useControllableState = <T>(
-  defaultValue: T,
-  value: T,
-  onChange: (newValue: T) => void,
+const useControllableState = <T>(
+  defaultValue: T | undefined,
+  value: T | undefined,
+  onChange: ((newValue: T | undefined) => any) | undefined,
 ): [
   T | undefined,
   Dispatch<SetStateAction<T | undefined>>
@@ -22,3 +22,5 @@ export const useControllableState = <T>(
 
   return [stateValue, setStateValue]
 }
+
+export default useControllableState

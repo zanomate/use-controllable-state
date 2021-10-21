@@ -1,0 +1,48 @@
+{
+  "name": "@zanomate/use-controllable-state",
+  "version": "1.0.0",
+  "description": "useControllableState custom hook for React",
+  "main": "dist/index.min.js",
+  "module": "dist/index.esm.min.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "bundle": "rimraf dist && bili --format esm-min --format cjs-min",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanomate/use-controllable-state.git"
+  },
+  "author": "Matteo Zanoncello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanomate/use-controllable-state/issues"
+  },
+  "homepage": "https://github.com/zanomate/use-controllable-state#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.175",
+    "@types/react": "^17.0.30",
+    "bili": "^5.0.5",
+    "jest": "^27.1.0",
+    "jest-canvas-mock": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

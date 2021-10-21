@@ -4,8 +4,6 @@
 ![npm type definitions](https://img.shields.io/npm/types/@zanomate/use-controllable-state)
 ![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/@zanomate/use-controllable-state/peer/react)
 
-https://img.shields.io/npm/v/@zanomate/use-controllable-state?style=flat-square
-
 A React custom hook to manage double controlled/uncontrolled behaviors.
 
 Useful for creating custom Input components.

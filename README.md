@@ -20,14 +20,13 @@ const MyCustomInput = ({ defaultValue, value, onChange }) => {
   
   const handleChange = (e) => {
     // Here I can transform the value back for the local state.
-    onChange(e.target.value)
+    setState(e.target.value)
   }
 
   // Here I can add my custom behavior to the local state.
   return (
     <input
-      defaultValue={defaultValue}
-      value={value}
+      value={state}
       onChange={handleChange}
     />
   )

@@ -6,6 +6,7 @@ const config: Config = {
       // Override the config in `tsconfig.json`
       tsconfigOverride: {
         include: ['src'],
+        exclude: ['src/**/*.test.ts']
       },
     },
   },
